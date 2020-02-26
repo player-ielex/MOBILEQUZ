@@ -21,7 +21,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                     e.printStackTrace();
                 } finally {
                     if (!interrupt) {
-                        Intent intent = new Intent(SplashScreenActivity.this, SplashScreenActivity.class);
+                        Intent intent = new Intent(SplashScreenActivity.this, QuizActivity.class);
                         startActivity(intent);
                     }
                 }
